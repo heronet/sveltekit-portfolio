@@ -3,43 +3,40 @@
 		<h1>About me</h1>
 		<div>
 			<p>
-				I'm a software engineer over at Hackules Inc., and let me tell you, my journey into this
-				world has been quite the ride. Starting out as a hobbyist, tinkering away with code just for
-				fun, I never imagined it would turn into a full-blown passion and profession. But here I am,
-				living and breathing all things software.
+				Hey there! 👋 I'm a software engineer intern at Hackules Inc., where I get to indulge in my
+				passion for coding and tech every day. From tinkering with code as a hobby to now living and
+				breathing software development as a profession, it's been quite the journey!
 			</p>
 			<p>
-				But you know what's really cool? On top of all the coding craziness, I'm also pursuing a
-				degree in physics at Shahjalal University of Science and Technology. Yeah, I know, it sounds
-				like a handful, but hey, who said you can't have the best of both worlds?
-			</p>
-			<p>
-				It's this blend of technology and science that gets me going every day. Whether I'm deep in
-				lines of code or wrapping my head around the mysteries of the universe, I'm constantly
-				learning and growing. And let me tell you, there's nothing quite like that feeling of making
-				meaningful connections between these two fascinating realms.
+				But wait, there's more! I'm also studying Physics at Shahjalal University of Science and
+				Technology. Balancing both worlds might sound like a handful, but I thrive on the challenge.
+				Whether I'm debugging code or diving into the mysteries of the universe, I'm constantly
+				driven by curiosity and the quest for knowledge. Let's connect and geek out together! 🚀
 			</p>
 		</div>
-		<div>
-			<h2>Education</h2>
-			<div class="item">
-				<img src="/imgs/SUST.png" alt="" />
-				<div class="info">
-					<h3>Shahjalal University of Science and Technology</h3>
-					<h5>Bachelor of Science - BS, Physics</h5>
-					<h6>Jul 2023 - Jan 2027</h6>
+		<div class="list">
+			<div>
+				<h2>Experience</h2>
+				<div class="item">
+					<img src="/imgs/HLogo.png" alt="" />
+					<div class="info">
+						<h3>Software Engineer Intern</h3>
+						<h5>Hackules Inc. · Part-time</h5>
+						<h6>Jan 2024 - Present</h6>
+						<h6>Wilmington, Delaware, United States · Remote</h6>
+					</div>
 				</div>
 			</div>
-		</div>
-		<div>
-			<h2>Experience</h2>
-			<div class="item">
-				<img src="/imgs/HLogo.png" alt="" />
-				<div class="info">
-					<h3>Software Engineer Intern</h3>
-					<h5>Hackules Inc. · Part-timeHackules</h5>
-					<h6>Jan 2024 - Present</h6>
-					<h6>Wilmington, Delaware, United States · Remote</h6>
+			<div>
+				<h2>Education</h2>
+				<div class="item">
+					<img src="/imgs/SUST.png" alt="" />
+					<div class="info">
+						<h3>Shahjalal University of Science and Technology</h3>
+						<h5>Bachelor of Science - BS, Physics</h5>
+						<h6>Jul 2023 - Jan 2027</h6>
+						<h6>Sylhet, Bangladesh</h6>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -69,11 +66,16 @@
 		gap: 12px;
 	}
 	.item > img {
-		max-width: 50px;
+		max-width: 70px;
 		object-fit: contain;
 	}
 	.item > .info > * {
 		margin: 0;
+	}
+	.list {
+		display: flex;
+		flex-direction: column;
+		gap: 30px;
 	}
 
 	@media (min-width: 768px) {

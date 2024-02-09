@@ -16,7 +16,7 @@
 <div class="container">
 	<div class="links-container">
 		<a href="/" class="brand">
-			Sirat<span class="xyz">.site</span>
+			Sirat<span class="xyz">.me</span>
 		</a>
 		<ul class="links">
 			{#each links as link}
