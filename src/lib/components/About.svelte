@@ -48,6 +48,7 @@
 		display: flex;
 		flex-direction: column;
 		padding-block: 20px;
+		margin-inline: auto;
 	}
 
 	.content {
@@ -57,6 +58,7 @@
 		flex-direction: column;
 		gap: 12px;
 		margin-bottom: 20px;
+		margin-inline: auto;
 	}
 	.content > h1 {
 		margin: 12px 0 0 0;
