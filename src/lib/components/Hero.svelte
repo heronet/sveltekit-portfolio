@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	const socials = [
 		{
 			id: 1,
@@ -15,7 +15,7 @@
 		<div class="text">
 			<div class="title">
 				<span class="name"> I'm Sirat</span>, <br />
-				<span>A Software Developer.</span>
+				<span>A Software Engineer.</span>
 			</div>
 			<div class="desc">
 				I develop Mobile and Full-stack Web applications. I love to make my ideas come to life using
