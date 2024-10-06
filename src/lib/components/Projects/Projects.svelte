@@ -19,7 +19,7 @@
 			],
 			links: [
 				{ id: 1, title: 'Source', url: 'https://github.com/heronet/connectui' },
-				{ id: 2, title: 'Live', url: 'https://uconnect.life/' }
+				{ id: 2, title: 'Live', url: 'https://connect-si.web.app/' }
 			],
 			imgUrl: '/imgs/connect.jpg',
 			description:
