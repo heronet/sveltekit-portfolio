@@ -21,7 +21,7 @@
 					<img src="/imgs/HLogo.png" alt="" />
 					<div class="info">
 						<h3>Software Engineer Intern</h3>
-						<h5>Hackules Inc. · Part-time</h5>
+						<h5>Hackules Inc. · Full-time</h5>
 						<h6>Jan 2024 - Present</h6>
 						<h6>Wilmington, Delaware, United States · Remote</h6>
 					</div>
